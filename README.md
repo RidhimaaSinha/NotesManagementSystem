@@ -1,6 +1,6 @@
 MyNotesApp 📝
 
-A simple full-stack notes application built with the MERN stack. Create, view, update, and delete notes through a clean, responsive interface.
+A simple full-stack notes application built with the MERN stack with a clean responsive UI to help you manage and organize your notes.
 
 ✨ Features
 
@@ -18,47 +18,35 @@ Responsive UI — A clean interface built with React, Tailwind CSS, and DaisyUI.
 
 REST API — Communicate with the backend through Axios.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
+- **React.js** – Building the user interface
+- **Vite** – Frontend development server and build tool
+- **Tailwind CSS** – Styling and responsive layouts
+- **DaisyUI** – Prebuilt UI components and themes
+- **React Router** – Client-side navigation
+- **Axios** – HTTP requests to the backend API
+- **React Hot Toast** – Success and error notifications
+- **Lucide React** – Icons
 
-React
+### Backend
+- **Node.js** – JavaScript runtime
+- **Express.js** – Backend server and REST API
+- **MongoDB** – NoSQL database for storing notes
+- **Mongoose** – MongoDB object modeling and schema validation
 
-Vite
 
-Tailwind CSS
+## 📁 Project Structure
 
-DaisyUI
-
-Axios
-
-React Router
-
-React Hot Toast
-
-Lucide React
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-REST API
-
-📁 Project Structure
-
+```text
 MyNotesApp/
 ├── backend/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
 │   ├── server.js
-│   └── .env
+│   └── package.json
 │
 ├── frontend/
 │   └── notesApp/
@@ -74,3 +62,4 @@ MyNotesApp/
 │
 ├── .gitignore
 └── README.md
+```
