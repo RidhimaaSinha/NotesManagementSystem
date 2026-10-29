@@ -72,15 +72,15 @@ const NoteDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-base-200">
+    <div className="min-h-screen bg-base-400">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-2xl mx-auto">
           <div className="flex items-center justify-between mb-6">
-            <Link to="/" className="btn btn-ghost">
+            <Link to="/" className="btn btn-ghost bg-base-300 rounded-md hover:shadow-md hover:shadow-slate-800">
               <ArrowLeftIcon className="h-5 w-5" />
               Back to Notes
             </Link>
-            <button onClick={handleDelete} className="btn btn-error btn-outline">
+            <button onClick={handleDelete} className="btn btn-error btn-outline bg-red-700/70 px-2">
               <Trash2Icon className="h-5 w-5" />
               Delete Note
             </button>
@@ -116,7 +116,7 @@ const NoteDetailPage = () => {
               </div>
 
               <div className="card-actions justify-end">
-                <button className="btn btn-primary px-3" disabled={saving} onClick={handleSave}>
+                <button className="btn btn-primary px-3 bg-base-200" disabled={saving} onClick={handleSave}>
                   {saving ? "Saving..." : "Save Changes"}
                 </button>
               </div>

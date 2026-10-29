@@ -44,17 +44,17 @@ const CreatePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-base-200">
+    <div className="min-h-screen bg-base-400">
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-2xl mx-auto">
-          <Link to={"/"} className="btn btn-ghost mb-6">
+          <Link to={"/"} className="mb-4 btn btn-ghost bg-base-300 rounded-md hover:shadow-md hover:shadow-slate-800">
             <ArrowLeftIcon className="size-5" />
             Back to Notes
           </Link>
 
           <div className="card bg-base-100 shadow-xl border border-base-300/60 rounded-2xl">
             <div className="card-body">
-              <h2 className="card-title font-semibold text-2xl mb-4">Create New Note</h2>
+              <h2 className="card-title font-semibold text-2xl mb-4">Create a New Note</h2>
               <form onSubmit={handleSubmit}>
                 <div className="form-control mb-6">
                   <label className="label mx-3 my-1">
